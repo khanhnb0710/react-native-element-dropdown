@@ -256,7 +256,8 @@ const DropdownComponent: <T>(
             if (index > -1 && index <= listData.length - 1) {
               refList?.current?.scrollToIndex({
                 index: index,
-                animated: false,
+                animated: true,
+                viewPosition: 0.5
               });
             }
           }
