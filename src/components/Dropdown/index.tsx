@@ -565,7 +565,7 @@ const DropdownComponent: <T>(
             return bottom < keyboardHeight + height;
           }
 
-          return bottom < (search ? 150 : 100);
+          return bottom < (search ? 150 : 251);
         };
 
         if (width && top && bottom) {
